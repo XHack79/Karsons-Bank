@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  font-family: monospace;
+  background: #111;
+  color: #0f0;
+}
+
+.login-container {
+  max-width: 400px;
+  margin: 100px auto;
+  text-align: center;
+}
+
+.login-container input, button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  background: #000;
+  color: #0f0;
+  border: 1px solid #0f0;
+}
+
+.dashboard {
+  padding: 40px;
+  text-align: center;
+}
+
+.dashboard a {
+  color: #0ff;
+  text-decoration: none;
+}
+
+#terminal-output {
+  padding: 20px;
+  height: 80vh;
+  overflow-y: auto;
+  white-space: pre-wrap;
+}
+
+#terminal-input {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  outline: none;
+  background: black;
+  color: lime;
+  font-family: monospace;
+}
